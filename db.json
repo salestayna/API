@@ -52,7 +52,7 @@
 		"firstName": "Arya",
 		"lastName": "Stark",
 		"fullName": "Arya Stark",
-		"title": "	No One",
+		"title": "No One",
 		"imageURL": "https://thronesapi.com/assets/images/arya-stark.jpg",
 		"quotes": ["Stick Them With The Pointy End."],
 		"familyId": 1
