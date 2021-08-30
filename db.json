@@ -1,48 +1,101 @@
 {
-  "families": [
-    {
-      "id": 1,
-      "name": "House Stark",
-      "symbol": "HS"
-    },
-    {
-      "id": 2,
-      "name": "House Targaryen",
-      "symbol": "HT"
-    },
-    {
-      "id": 3,
-      "name": "House Lannister",
-      "symbol": "HL"
-    }
-  ],
-  "characters": [
-    {
-      "id": 1,
-      "firstName": "Jon",
-      "lastName": "Snow",
-      "fullName": "Jon Snow",
-      "title": "King of the North",
-      "imageURL": "https://thronesapi.com/assets/images/jon-snow.jpg",
-      "familyId": 1
-    },
-    {
-      "id": 2,
-      "firstName": "Daenerys",
-      "lastName": "Targaryen",
-      "fullName": "Daenerys Targaryen",
-      "title": "Mother of Dragons",
-      "imageURL": "https://thronesapi.com/assets/images/daenerys.jpg",
-      "familyId": 2
-    },
-    {
-      "id": 3,
-      "firstName": "Jamie",
-      "lastName": "Lannister",
-      "fullName": "Jamie Lannister",
-      "title": "Lord Commander of the Kingsguard",
-      "imageURL": "https://thronesapi.com/assets/images/jaime-lannister.jpg",
-      "familyId": 3
-    }
-  ]
+	"families": [
+	{
+		"id": 1,
+		"name": "House Stark",
+		"symbol": "symbols/stark.png"
+	},
+	{
+		"id": 2,
+		"name": "House Targaryen",
+		"symbol": "symbols/targaryen.png"
+	},
+	{
+		"id": 3,
+		"name": "House Lannister",
+		"symbol": "symbols/lannister.png"
+	}
+	],
+	"characters": [
+	{
+		"id": 1,
+		"firstName": "Jon",
+		"lastName": "Snow",
+		"fullName": "Jon Snow",
+		"title": "King of the North",
+		"imageURL": "https://thronesapi.com/assets/images/jon-snow.jpg",
+		"quotes": ["There’s no shame in fear, my father told me, what matters is how we face it.", "Everyone will die if you don’t help me."],
+		"familyId": 1
+	},
+	{
+		"id": 2,
+		"firstName": "Daenerys",
+		"lastName": "Targaryen",
+		"fullName": "Daenerys Targaryen",
+		"title": "Mother of Dragons",
+		"imageURL": "https://thronesapi.com/assets/images/daenerys.jpg",
+		"quotes": ["I have never been nothing. I am the blood of the dragon.", "They can live in my new world, or they can die in their old one."],
+		"familyId": 2
+	},
+	{
+		"id": 3,
+		"firstName": "Cersei",
+		"lastName": "Lannister",
+		"fullName": "Cersei Lannister",
+		"title": "Lady of Casterly Rock",
+		"imageURL": "https://thronesapi.com/assets/images/cersei.jpg",
+		"quotes": ["Every breath you draw in my presence annoys me.", "People will whisper. They’ll make their jokes. Let them.", "I should wear the armor and you the gown."],
+		"familyId": 3
+	},
+	{
+		"id": 4,
+		"firstName": "Arya",
+		"lastName": "Stark",
+		"fullName": "Arya Stark",
+		"title": "",
+		"imageURL": "https://thronesapi.com/assets/images/arya-stark.jpg",
+		"quotes": ["Stick Them With The Pointy End."],
+		"familyId": 1
+	},
+	{
+		"id": 5,
+		"firstName": "Viserys",
+		"lastName": "Targaryan",
+		"fullName": "Viserys Targaryn",
+		"title": "King Viserys III",
+		"imageURL": "https://thronesapi.com/assets/images/viserys-targaryan.jpg",
+		"quotes": [],
+		"familyId": 2
+	},
+	{
+		"id": 6,
+		"firstName": "Tyrion",
+		"lastName": "Lannister",
+		"fullName": "Tyrion Lannister",
+		"title": "Hand of the Queen",
+		"imageURL": "https://thronesapi.com/assets/images/tyrion-lannister.jpg",
+		"quotes": ["A mind needs books like a sword needs a whetstone."],
+		"familyId": 3
+	},
+	{
+		"id": 7,
+		"firstName": "Cateyln",
+		"lastName": "Stark",
+		"fullName": "Catelyn Stark",
+		"title": "Lady of Winterfell",
+		"imageURL": "https://thronesapi.com/assets/images/catelyn-stark.jpg",
+		"quotes": [],
+		"familyId": 1
+	},
+	{
+		"id": 8,
+		"firstName": "Khal",
+		"lastName": "Drogo",
+		"fullName": "Khal Drogo",
+		"title": "Khal",
+		"imageURL": "https://thronesapi.com/assets/images/khal-drogo.jpg",
+		"quotes": [],
+		"familyId": 2
+	}
+	]
 }
