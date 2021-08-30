@@ -52,7 +52,7 @@
 		"firstName": "Arya",
 		"lastName": "Stark",
 		"fullName": "Arya Stark",
-		"title": "",
+		"title": "	No One",
 		"imageURL": "https://thronesapi.com/assets/images/arya-stark.jpg",
 		"quotes": ["Stick Them With The Pointy End."],
 		"familyId": 1
@@ -89,13 +89,53 @@
 	},
 	{
 		"id": 8,
-		"firstName": "Khal",
-		"lastName": "Drogo",
-		"fullName": "Khal Drogo",
-		"title": "Khal",
-		"imageURL": "https://thronesapi.com/assets/images/khal-drogo.jpg",
+		"firstName": "Ned",
+		"lastName": "Stark",
+		"fullName": "Ned Stark",
+		"title": "Lord of Winterfell",
+		"imageURL": "https://thronesapi.com/assets/images/ned-stark.jpg",
+		"quotes": ["The winters are hard but the Starks will endure. We always have.", "The man who passes the sentence should swing the sword.", "The next time we see each other, we'll talk about your mother. I promise."],
+		"familyId": 1
+	},
+	{
+		"id": 9,
+		"firstName": "Tywin",
+		"lastName": "Lannister",
+		"fullName": "Tywin Lannister",
+		"title": "Lord Paramount of Westerlands",
+		"imageURL": "https://thronesapi.com/assets/images/tywin-lannister.jpg",
+		"quotes": ["I Need You To Become The Man You Were Born To Be. Not Tomorrow, Not Next Year. Now."],
+		"familyId": 3
+	},
+	{
+		"id": 10,
+		"firstName": "Sansa",
+		"lastName": "Stark",
+		"fullName": "Sansa Stark",
+		"title": "Lady of Winterfell",
+		"imageURL": "https://thronesapi.com/assets/images/sansa-stark.jpeg",
 		"quotes": [],
-		"familyId": 2
+		"familyId": 1
+	},
+	{
+		"id": 11,
+		"firstName": "Jamie",
+		"lastName": "Lannister",
+		"fullName": "Jamie Lannister",
+		"title": "Lord Commander of the Kingsguard",
+		"imageURL": "https://thronesapi.com/assets/images/jaime-lannister.jpg",
+		"quotes": ["My Life Has Left Me Uniquely Unfit For Constraint"],
+		"familyId": 3
+	},
+	{
+		"id": 12,
+		"firstName": "Brandon",
+		"lastName": "Stark",
+		"fullName": "Brandon Stark",
+		"title": "Lord of Winterfell",
+		"imageURL": "https://thronesapi.com/assets/images/bran-stark.jpg",
+		"quotes": [""],
+		"familyId": 1
 	}
 	]
 }
